@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "github.com/whatbirdisthat/gomicrostring"
+)
 
 func main() {
-  fmt.Printf("Hello, world.\n")
+  fmt.Printf(gomicrostring.Reverse("\n!oG ,olleH"))
 }
 
